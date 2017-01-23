@@ -1,0 +1,302 @@
+body {
+	font-family:'Arial';
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color:windowtext;
+	background-color:#CDD8E7;
+	background-image: url(../aw_images/fondo.jpg);
+}
+TD,TR,INPUT{ font-family:'Arial'; font-size:12px;}
+INPUT.itext {
+	width:100%;
+	padding:1px;
+	height:14px;
+	border:0px;
+	background-color:ThreeDHighlight;
+	font-size: 9px;
+}
+
+TEXTAREA.text { width:100%; padding:0px; height:40px; border:0px; background-color:ThreeDHighlight; }
+
+select {
+	border: 1px;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 13px;
+	font-size: 9px;
+}
+
+option {
+width:100%; padding:0px; height:40px; border:0px; background-color:ThreeDHighlight;
+}
+
+.window{background-color:Window; color:WindowText;}
+A:link               {
+	BACKGROUND: none;
+	color: windowtext;
+	font-weight: normal;
+	text-decoration: none;	
+}
+A:active             {
+	BACKGROUND: none;
+	color: windowtext;
+	font-weight: normal;
+	text-decoration: none;	
+}
+A:visited            {
+	BACKGROUND: none;
+	font-variant : normal;
+	color: windowtext;
+	font-weight: normal;
+	text-decoration: none;	
+}
+A:hover              {
+	color: windowtext;
+	BACKGROUND: none;
+	font-variant : normal;
+	font-weight: normal;
+	text-decoration: underline;	
+}
+.titular {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: WindowText;
+}
+
+.control{background-color:Highlight; color:HighlightText;}
+.control2{background-color:white; color:black;}
+.sombra{background-color:ThreeDShadow; color:HighlightText;}
+.bloque{
+	border: 1px solid #9999CC;
+	background-color: #D9E1EC;
+}
+.barra_menu {
+	background-color:#64ADEA;
+	color:#000000;
+}
+.barra_herramientas {
+	filter:progid:DXImageTransform.Microsoft.Gradient(  GradientType=0,StartColorStr=#9DC8F4, EndColorStr=#7DADDD);
+	color:#000000;
+}
+.barra_titulos {
+	filter:progid:DXImageTransform.Microsoft.Gradient(  GradientType=0,StartColorStr=#539FB9, EndColorStr=#2F8088);
+		color:#FFFFFF;
+	font-weight: bold;
+}
+
+.out {
+	background-color:#CDD8E7; background-image: url(../aw_images/fondo.jpg);
+	color:MenuText;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color: ThreeDShadow;
+	border-bottom-color: ThreeDShadow;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: ThreeDHighlight;
+	border-left-color: ThreeDHighlight;
+}
+.out_header {
+	background-color:#CDD8E7;
+	background-image: url(../aw_images/fondo.jpg);
+	color:Windowtext;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color: ThreeDShadow;
+	border-bottom-color: ThreeDShadow;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: ThreeDHighlight;
+	border-left-color: ThreeDHighlight;
+}
+A.menu_header:link               {
+	color: windowtext;
+}
+A.menu_header:active             {
+	color: windowtext;
+}
+A.menu_header:visited            {
+	color: windowtext;
+}
+A.menu_header:hover              {
+	color: windowtext;
+}
+.over{
+	background-color:#CDD8E7; background-image: url(../aw_images/fondo.jpg);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: ThreeDDarkShadow;
+	border-left-color: ThreeDDarkShadow;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: ThreeDHighlight;
+	border-bottom-color: ThreeDHighlight;
+}
+.over_interno {
+	background-color:Scrollbar;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: ThreeDShadow;
+	border-left-color: ThreeDShadow;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: ThreeDHighlight;
+	border-bottom-color: ThreeDHighlight;
+}
+.over_externo {
+	background-color:Window;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: ThreeDShadow;
+	border-left-color: ThreeDShadow;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: ThreeDHighlight;
+	border-bottom-color: ThreeDHighlight;
+}
+
+.pest_box {
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: ThreeDDarkShadow;
+	border-bottom-color: ThreeDDarkShadow;
+	border-left-color: ThreeDHighlight;
+	background-color:#CDD8E7; background-image: url(../aw_images/fondo.jpg);
+}
+.pest_on {
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: ThreeDHighlight;
+	border-right-color: ThreeDDarkShadow;
+	border-left-color: ThreeDHighlight;
+	background-color:#CDD8E7; background-image: url(../aw_images/fondo.jpg);
+}
+.pest_off {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: ThreeDHighlight;
+	border-right-color: ThreeDDarkShadow;
+	border-left-color: ThreeDHighlight;
+	border-bottom-color: ThreeDHighlight;
+	border-bottom-width: 2px;
+}
+.pest_none {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: ThreeDHighlight;
+	border-right-color: ThreeDDarkShadow;
+	border-left-color: ThreeDHighlight;
+	border-bottom-color: ThreeDHighlight;
+	border-bottom-width: 2px;
+}
+
+/** estilo de menu**/
+dl.accordion{
+	margin:0;
+	padding:0;
+	_overflow:hidden;
+	background-color: Window;
+}
+dl.accordion dt
+{
+	filter:progid:DXImageTransform.Microsoft.Gradient(  GradientType=0,StartColorStr=#9DC8F4, EndColorStr=#7DADDD);
+	-moz-border-radius-topLeft:6px;
+	_width:100%;/*hack for IE*/
+	cursor:pointer;display:block;cursor:hand;margin:0;padding:0;padding:3px 6px;background:#CDD8E7;					
+	background-color:#CDD8E7; background-image: url(../aw_images/fondo.jpg);
+	color:MenuText;
+	border-left: 1px solid ThreeDHighlight;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top: 1px solid ThreeDHighlight;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color: ThreeDDarkShadow;
+	border-bottom-color: ThreeDDarkShadow;
+}
+
+dl.accordion dt.hover
+{
+	filter:progid:DXImageTransform.Microsoft.Gradient(  GradientType=0,StartColorStr=#FFFFFF, EndColorStr=#9DC8F4);
+	background:ButtonShadow;color:MenuText;
+}
+
+dl.accordion dt.collapsing
+{
+	filter:progid:DXImageTransform.Microsoft.Gradient(  GradientType=1,StartColorStr=#31324A, EndColorStr=#DBDBDB);
+	background:Highlight;
+}
+dl.accordion dt.expanding
+{
+	filter:progid:DXImageTransform.Microsoft.Gradient(  GradientType=1,StartColorStr=#333366, EndColorStr=#DBDBDB);
+	background:Highlight;
+}
+
+dl.accordion dd{
+	margin:0;
+	padding:0;
+	border-bottom:3px inset #aaaaaa;
+	padding:6px;
+	line-height:1.4;
+	overflow:auto;
+	border-top: 1px solid #aaaaaa;
+	border-right: 1px solid #aaaaaa;
+	border-left: 1px solid #aaaaaa;
+}
+dl.accordion dd.default{height:auto;display:block;}
+dl.accordion dd.default_close{display:none;}
+
+
+.menu1{
+	margin:0;
+	padding:0;
+	border-bottom:3px inset #aaaaaa;
+	padding:6px;
+	line-height:1.4;
+	overflow:auto;
+	border-top: 1px solid #aaaaaa;
+	border-right: 1px solid #aaaaaa;
+	border-left: 1px solid #aaaaaa;
+}
+

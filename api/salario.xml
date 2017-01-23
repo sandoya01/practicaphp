@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<planilla>
+  <empleado seccion="rangosalario">
+    <nombre>Dean Ramirez</nombre>
+    <email>deanramirez@fanfare.com</email>
+    <posicion>developer</posicion>
+    <salario>$2,046.78</salario>
+    <nombre>Bradley Kirk</nombre>
+    <email>bradleykirk@fanfare.com</email>
+    <posicion>developer</posicion>
+    <salario>$1,788.16</salario>
+    <nombre>Miranda Gross</nombre>
+    <email>mirandagross@fanfare.com</email>
+    <posicion>developer</posicion>
+    <salario>$2,374.26</salario>
+  </empleado>
+</planilla>
